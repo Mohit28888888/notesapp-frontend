@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API = axios.create({ baseURL: "https://notes-backend.onrender.com/api/notes" });
+const API = axios.create({ baseURL: "https://notesapp-backend-xeh3.onrender.com/api/notes" });
 
 export const getNotes = () => API.get("");
 export const createNote = (note) => API.post("", note);
